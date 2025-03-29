@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="mystl::reverse_iterator&lt;Iterator&gt;" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAQAEAAwAAgBEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="mystl::input_iterator_tag" Collapsed="true">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::output_iterator_tag" Collapsed="true">
+    <Position X="17.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::forward_iterator_tag" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::bidirectional_iterator_tag" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::random_access_iterator_tag" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::iterator&lt;Category, T, Distance, Pointer, Reference&gt;">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="mystl::iterator&lt;Category, T, Distance, Pointer, Reference&gt;::iterator_category" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="mystl::iterator&lt;Category, T, Distance, Pointer, Reference&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="mystl::iterator&lt;Category, T, Distance, Pointer, Reference&gt;::pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="mystl::iterator&lt;Category, T, Distance, Pointer, Reference&gt;::reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="mystl::iterator&lt;Category, T, Distance, Pointer, Reference&gt;::difference_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::has_iterator_cat&lt;T&gt;">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="mystl::has_iterator_cat&lt;T&gt;::two" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::iterator_traits_impl&lt;Iterator&gt;">
+    <Position X="5.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::iterator_traits_impl&lt;Iterator, true&gt;" Collapsed="true">
+    <Position X="15.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::iterator_traits_helper&lt;Iterator&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::iterator_traits_helper&lt;Iterator, true&gt;">
+    <Position X="5.25" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::iterator_traits&lt;Iterator&gt;">
+    <Position X="0.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::iterator_traits&lt;T*&gt;">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="mystl::iterator_traits&lt;T*&gt;::iterator_category" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="mystl::iterator_traits&lt;T*&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="mystl::iterator_traits&lt;T*&gt;::pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="mystl::iterator_traits&lt;T*&gt;::reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="mystl::iterator_traits&lt;T*&gt;::difference_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\head\Iterator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::iterator_traits&lt;const T*&gt;" Collapsed="true">
+    <Position X="14" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::has_iterator_cat_of&lt;T, U&gt;" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::has_iterator_cat_of&lt;T, U, false&gt;">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::is_exactly_input_iterator&lt;Iter&gt;" Collapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::is_input_iterator&lt;Iter&gt;" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::is_output_iterator&lt;Iter&gt;" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::is_forward_iterator&lt;Iter&gt;" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::is_bidirectional_iterator&lt;Iter&gt;" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::is_random_access_iterator&lt;Iter&gt;" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mystl::is_iterator&lt;Iterator&gt;">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\head\Iterator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -8,7 +8,7 @@
  * 外部接口：static void* allocate(size_t n);
              static void  deallocate(void* p, size_t n);
              static void* reallocate(void* p, size_t old_size, size_t new_size);
- * 
+ *
 ***************************************************************************/
 
 #ifndef MYTINYSTL_ALLOC_H_
