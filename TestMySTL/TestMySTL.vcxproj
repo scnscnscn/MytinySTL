@@ -105,9 +105,13 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="testAlgobase.cpp" />
     <ClCompile Include="testAlloc.cpp" />
+    <ClCompile Include="testAllocator.cpp" />
     <ClCompile Include="testConstruct.cpp" />
     <ClCompile Include="testIterator.cpp" />
+    <ClCompile Include="testSetAlgo.cpp" />
+    <ClCompile Include="testUtil.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

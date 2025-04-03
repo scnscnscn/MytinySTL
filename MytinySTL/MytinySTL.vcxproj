@@ -135,13 +135,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\head\Algobase.h" />
+    <ClInclude Include="src\head\Algorithm.h" />
     <ClInclude Include="src\head\Alloc.h" />
+    <ClInclude Include="src\head\Allocator.h" />
     <ClInclude Include="src\head\Construct.h" />
+    <ClInclude Include="src\head\HeapAlgo.h" />
     <ClInclude Include="src\head\Iterator.h" />
+    <ClInclude Include="src\head\SetAlgo.h" />
     <ClInclude Include="src\head\TypeTraits.h" />
+    <ClInclude Include="src\head\Util.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="src\head\Functional.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

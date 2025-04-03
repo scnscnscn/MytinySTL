@@ -27,8 +27,28 @@
     <ClInclude Include="src\head\Iterator.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\head\Allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\head\Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\head\Algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\head\Algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\head\SetAlgo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\head\HeapAlgo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="src\head\Functional.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

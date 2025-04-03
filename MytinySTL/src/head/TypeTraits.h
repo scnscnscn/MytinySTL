@@ -1,6 +1,6 @@
 #ifndef MYTINYSTL_TYPE_TRAITS_H_
 #define MYTINYSTL_TYPE_TRAITS_H_
-
+#include "type_traits"
 namespace mystl {
     // 条件选择辅助结构体
     template<bool Condition, class ThenType, class ElseType>
@@ -259,34 +259,7 @@ namespace mystl {
 
     typedef m_bool_constant<true>  m_true_type;
     typedef m_bool_constant<false> m_false_type;
-
-    // 辅助类型特征，用于移除引用
-    template <typename T>
-    struct remove_reference {
-        using type = T;
-    };
-
-    template <typename T>
-    struct remove_reference<T&> {
-        using type = T;
-    };
-
-    template <typename T>
-    struct remove_reference<T&&> {
-        using type = T;
-    };
-
-    // 完美转发实现
-    template <typename T>
-    T&& forward(typename remove_reference<T>::type& arg) noexcept {
-        return static_cast<T&&>(arg);
-    }
-
-    template <typename T>
-    T&& forward(typename remove_reference<T>::type&& arg) noexcept {
-        static_assert(!std::is_lvalue_reference<T>::value, "Can't forward an rvalue as an lvalue.");
-        return static_cast<T&&>(arg);
-    }
+ 
  
 } // namespace mystl
 

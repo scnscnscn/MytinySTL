@@ -1,16 +1,3 @@
-/**************************************************************************
- * @brief: 自定义内存分配器，管理小对象内存分配，避免内存碎片
- * @author: WLQVincent@outlook.com
- * @copyright: 双马尾为什么是神
- * @version : 1.0
- * @note: 本分配器对于大内存（>4K）使用 std::malloc 和 std::free，小内存使用自由链表和内存池管理
- * @history : 1.0 ：2025-03-024
- * 外部接口：static void* allocate(size_t n);
-             static void  deallocate(void* p, size_t n);
-             static void* reallocate(void* p, size_t old_size, size_t new_size);
- *
-***************************************************************************/
-
 #ifndef MYTINYSTL_ALLOC_H_
 #define MYTINYSTL_ALLOC_H_
 
