@@ -124,7 +124,7 @@ namespace mystl
     }
 
     // set_difference
-    // 计算两个集合的差集，结果存储在 result 中
+    // 计算两个集合的差集，也就是存在于第一个区间但不存在于第二个区间的元素，结果存储在 result 中
     template <class InputIter1, class InputIter2, class OutputIter>
     OutputIter set_difference(InputIter1 first1, InputIter1 last1,
         InputIter2 first2, InputIter2 last2,

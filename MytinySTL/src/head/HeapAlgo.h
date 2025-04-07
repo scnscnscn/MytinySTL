@@ -2,16 +2,20 @@
 #ifndef HEAP_ALGO_H
 #define HEAP_ALGO_H
 #include "Iterator.h"
-
+// 最大堆的定义是：对于每一个节点i，i的值大于等于它的子节点的值
+// 最小堆的定义是：对于每一个节点i，i的值小于等于它的子节点的值
+// 也就是说不报错，但结果几乎一定错
 namespace mystl
-{
+{   // heap分最大堆和最小堆，默认是最大堆
+	// push_heap
     template <class RandomIter, class Distance, class T>
     void push_heap_aux(RandomIter first, Distance holeIndex, Distance topIndex, T value)
     {
         auto parent = (holeIndex - 1) / 2;
-        while (holeIndex > topIndex && *(first + parent) < value)
-        {
-            // 使用 operator<，所以 heap 为 max-heap
+		while (holeIndex > topIndex && *(first + parent) < value)//当 holeIndex > topIndex 时，说明当前节点在树的上半部分
+		{                                                       // 先将父节点与当前节点进行比较，若父节点小于当前节点，则将父节点下移
+			                                                    // 否则就将当前节点放入合适的位置
+            // max-heap使用 <
             *(first + holeIndex) = *(first + parent);
             holeIndex = parent;
             parent = (holeIndex - 1) / 2;
@@ -20,16 +24,17 @@ namespace mystl
     }
 
     template <class RandomIter, class Distance>
-    void push_heap_d(RandomIter first, RandomIter last, Distance*)
-    {
+    void push_heap_d(RandomIter first, RandomIter last, Distance*)//该函数的作用是将新元素插入到堆中
+    {                                                             // 先将新元素放在容器的尾部，然后调整为 max-heap
         mystl::push_heap_aux(first, (last - first) - 1, static_cast<Distance>(0), *(last - 1));
     }
 
     template <class RandomIter>
-    void push_heap(RandomIter first, RandomIter last)
-    { // 新元素应该已置于底部容器的最尾端
-        mystl::push_heap_d(first, last, distance_type(first));
-    }
+
+	void push_heap(RandomIter first, RandomIter last)
+	{
+		mystl::push_heap_d(first, last, distance_type(first));
+	}
 
     // 重载版本使用函数对象 comp 代替比较操作
     template <class RandomIter, class Distance, class T, class Compared>

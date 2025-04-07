@@ -135,6 +135,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\head\Algo.h" />
     <ClInclude Include="src\head\Algobase.h" />
     <ClInclude Include="src\head\Algorithm.h" />
     <ClInclude Include="src\head\Alloc.h" />
@@ -142,8 +143,11 @@
     <ClInclude Include="src\head\Construct.h" />
     <ClInclude Include="src\head\HeapAlgo.h" />
     <ClInclude Include="src\head\Iterator.h" />
+    <ClInclude Include="src\head\Memory.h" />
+    <ClInclude Include="src\head\Numeric.h" />
     <ClInclude Include="src\head\SetAlgo.h" />
     <ClInclude Include="src\head\TypeTraits.h" />
+    <ClInclude Include="src\head\Uninitialized.h" />
     <ClInclude Include="src\head\Util.h" />
   </ItemGroup>
   <ItemGroup>

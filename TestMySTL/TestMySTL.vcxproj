@@ -109,7 +109,10 @@
     <ClCompile Include="testAlloc.cpp" />
     <ClCompile Include="testAllocator.cpp" />
     <ClCompile Include="testConstruct.cpp" />
+    <ClCompile Include="testHeapAlgo.cpp" />
     <ClCompile Include="testIterator.cpp" />
+    <ClCompile Include="testMemory.cpp" />
+    <ClCompile Include="testNumeric.cpp" />
     <ClCompile Include="testSetAlgo.cpp" />
     <ClCompile Include="testUtil.cpp" />
   </ItemGroup>

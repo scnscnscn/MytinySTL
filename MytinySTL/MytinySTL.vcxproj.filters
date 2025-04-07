@@ -45,6 +45,18 @@
     <ClInclude Include="src\head\HeapAlgo.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\head\Algo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\head\Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\head\Uninitialized.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\head\Numeric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\head\Functional.h">

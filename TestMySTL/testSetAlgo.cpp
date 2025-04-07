@@ -41,8 +41,8 @@ TEST(SetAlgoTest, testSetDifference) {
     EXPECT_TRUE(std::equal(result, result + resultSize, expected));
 }
 
-int main(int argc, char** argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    ::testing::GTEST_FLAG(filter) = "SetAlgoTest.*";
-    return RUN_ALL_TESTS();
-}
+//int main(int argc, char** argv) {
+//    ::testing::InitGoogleTest(&argc, argv);
+//    ::testing::GTEST_FLAG(filter) = "SetAlgoTest.*";
+//    return RUN_ALL_TESTS();
+//}
